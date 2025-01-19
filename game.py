@@ -1,6 +1,6 @@
 import random
 while True:
-    user_input = input("enter your choice(rock,paper,scissor)  ")
+    user_input = input("enter your choice(rock,paper,scissor)  ").lower()
     action = ["rock","paper","scissor"]
     computer_input = random.choice(action)
     print(f"\n you choose {user_input}, computer choose {computer_input}.\n")
